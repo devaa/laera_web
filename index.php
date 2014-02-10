@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="tittle" content="Reformas Integrales Areal S.L.">
+    <meta name="description" content="Reformas Integrales Areal S.L., empresa especializada en: Reformas en General - DecoraciÛn - Muebles BaÒo - Cambio Plato Ducha - Mamparas BaÒo - AlcorcÛn">
+    <meta name="author" content="David Arenas">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
     <title>AREAL Reformas Integrales</title>
@@ -30,23 +31,7 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-      	  <div class="header">
-	        <ul class="nav nav-pills pull-right" style="margin-top: 60px">
-	          <li class="active"><a href="#">Inicio</a></li>
-	          <li><a href="#">Quien&eacute;s somos</a></li>
-	          <li><a href="#">Contacto</a></li>
-	        </ul>
-	        <h3 class="text-muted"><img height="110px" src="img/logo314_154.png" /></h3>
-	      </div>
-
-        
-
-      </div>
-    </div>
-
-
+    <?php include 'includes/navbar.php';?>
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -84,17 +69,17 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
+          <!-- <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image"> -->
           <h3>Asesoramiento</h3>
-          <p>Pondremos a sus disposici&oacute;n profesionales que te explicaran detalladamente el proceso de tu reforma y te ayudaran en la elecci√≥n de materiales</p>
+          <p>Pondremos a sus disposici&oacute;n profesionales que te explicaran detalladamente el proceso de tu reforma y te ayudaran en la elecci&oacute;n de materiales con el fin de alcanzar un perfecto equilibrio entre funcionalidad y dise&ntilde;o.</p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
-          <h3>Heading</h3>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <!-- <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image"> -->
+          <h3>Experiencia</h3>
+          <p>Nos avalan m&aacute;s 30 a&ntilde;os de experiencia en los que nuestra m&aacute;xima ha sido la calidad del trabajo y la satisfacci&oacute;n de nuestros clientes.</p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          	<img data-src="holder.js/140x140" alt="Generic placeholder image">
+          	<!-- <img data-src="holder.js/140x140" alt="Generic placeholder image"> -->
             <h3>Donde estamos</h3>
 	        <p>C/ Buitrago 8, 28924</p>
 	        <p>Alcorc&oacute;n MADRID</p>
@@ -103,18 +88,14 @@
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
-      <hr class="featurette-divider">
+      <hr>
 
       <!-- /END THE FEATURETTES -->
 
-
       <!-- FOOTER -->
-      <footer>
-        <h5>Reformas y Decoraci√≥n Areal S.L. - C/ Buitrago 8 - 28921 ALCORC√ìN (MADRID) - 91 611 47 83 - areal@arealsl.es</h5>
-      </footer>
+      <?php include 'includes/footer.html';?>
 
     </div><!-- /.container -->
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
