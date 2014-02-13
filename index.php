@@ -32,6 +32,7 @@
 ================================================== -->
   <body>
     <?php include 'includes/navbar.php';?>
+    <div class="container-general container">
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -80,10 +81,11 @@
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           	<!-- <img data-src="holder.js/140x140" alt="Generic placeholder image"> -->
-            <h3>Donde estamos</h3>
-	        <p>C/ Buitrago 8, 28924</p>
-	        <p>Alcorc&oacute;n MADRID</p>
+            <h3>Contacto</h3>
+	        <p>C/ Buitrago 8, 28924<br>
+	        Alcorc&oacute;n MADRID</p>
 	        <h4>916114783</h4>
+	        <h5><a href="mailto:arealsl@arealsl.es">arealsl@arealsl.es</a></h5>
 	          <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
@@ -103,5 +105,6 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/docs.min.js"></script>
+    </div>
   </body>
 </html>

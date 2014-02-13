@@ -39,7 +39,7 @@ body {
 
 /* Carousel base class */
 .carousel {
-	margin:145px 90px 60px 90px;
+	margin:145px 0px 60px 0px;
   /*margin-top:150px;
   margin-right:50px;*/
   height: 400px;
