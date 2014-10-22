@@ -1,0 +1,11 @@
+web_index:
+    path:     /
+    defaults: { _controller: ArealWebBundle:Default:index }
+
+web_contacto:
+    path:     /contacto
+    defaults: { _controller: ArealWebBundle:Default:contacto }
+
+web_envioFormContacto:
+    path:     /envioFormContacto
+    defaults: { _controller: ArealWebBundle:Default:envioFormContacto }

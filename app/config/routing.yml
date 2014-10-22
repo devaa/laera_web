@@ -1,0 +1,4 @@
+areal_web:
+    resource: "@ArealWebBundle/Resources/config/routing.yml"
+    prefix:   /
+

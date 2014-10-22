@@ -1,0 +1,4 @@
+services:
+#    areal_web.example:
+#        class: Areal\WebBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
